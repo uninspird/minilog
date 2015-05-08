@@ -19,6 +19,8 @@ if($row['postID'] == ''){
     <link rel="stylesheet" href="style/blog.css">
     <link rel="stylesheet" href="style/pure/pure-min.css">
     <link rel="stylesheet" href="style/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="style/share.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 
@@ -41,6 +43,23 @@ if($row['postID'] == ''){
 			echo '</section>
             		</div>';
 		?>
+
+        <div>
+            <a href="http://twitter.com/share?url=https://github.com/uninspird/minilog&via=Abhirup Manna" target="_blank" class="share-btn twitter">
+            <i class="fa fa-twitter"></i>
+        </a>
+
+        <!-- Google Plus -->
+        <a href="https://plus.google.com/share?url=https://github.com/uninspird/minilog" target="_blank" class="share-btn google-plus">
+            <i class="fa fa-google-plus"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a href="http://www.facebook.com/sharer/sharer.php?u=https://github.com/uninspird/minilog" target="_blank" class="share-btn facebook">
+            <i class="fa fa-facebook"></i>
+        </a>
+    </div>
+
         <div id="disqus_thread"></div>
             <script type="text/javascript">
                 /* * * CONFIGURATION VARIABLES * * */
